@@ -12,3 +12,17 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var secTot = 12560;
+
+var ore = secTot/3600;
+
+ore = Math.floor(ore);
+
+var minuti = (secTot - (ore * 3600))/60;
+
+minuti = Math.floor(minuti);
+
+var secondi = (secTot - (ore * 3600) - (minuti * 60));
+
+console.log(ore + " ore, "+ minuti + " minuti, " + secondi + " secondi.");

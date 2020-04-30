@@ -11,3 +11,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var thisYear = 2020
+
+var bornYear = 1991
+
+var eta = thisYear - bornYear
+
+var missing = 100 - eta
+
+console.log("Et? = " + eta + ", anni mancanti = " + missing);

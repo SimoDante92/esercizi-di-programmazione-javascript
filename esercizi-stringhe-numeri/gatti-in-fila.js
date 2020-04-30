@@ -17,3 +17,22 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44
+
+var inFila = 6
+
+var nfile = cats/inFila
+
+nfile=Math.ceil(nfile)
+
+var missing = (nfile * inFila) - cats
+
+console.log("numero di file: " + nfile);
+
+console.log("gatti mancanti: " + missing);
+
+
+
+
+
