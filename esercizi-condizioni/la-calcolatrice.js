@@ -28,3 +28,25 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var a = 5
+
+var b = 6
+
+var operazione = "sottrazione"
+
+if (operazione == "somma"){
+  console.log(a+b);
+} else if (operazione == "sottrazione") {
+  console.log(a-b);
+} else if (operazione == "moltiplicazione") {
+  console.log(a*b);
+} else if (operazione == "divisione") {
+  console.log(a/b);
+} else if (operazione == "modulo") {
+  console.log(a%b);
+} else if (operazione == "potenza") {
+  console.log(a**b);
+} else if (operazione == "media") {
+  console.log((a+b)/2);
+}

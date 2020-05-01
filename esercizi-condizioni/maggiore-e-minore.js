@@ -10,3 +10,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var a = 10
+var b = -1
+var c = 7
+var d = -8
+
+console.log("Maggiore = " + Math.max(a,b,c,d) + ", minore = " + Math.min(a,b,c,d));

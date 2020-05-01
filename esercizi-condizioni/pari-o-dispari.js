@@ -15,3 +15,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var n = 56
+
+console.log(n%2);
+
+//qualsiasi numero pari diviso per 2 darà come resto 0, quasiasi numero dispari darà come resto 1
