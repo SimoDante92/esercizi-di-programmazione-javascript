@@ -49,4 +49,6 @@ if (operazione == "somma"){
   console.log(a**b);
 } else if (operazione == "media") {
   console.log((a+b)/2);
+} else {
+  console.log("Operazione non disponibile");
 }

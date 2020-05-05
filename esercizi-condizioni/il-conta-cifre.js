@@ -11,3 +11,7 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var num = 9999
+
+console.log(num.toString().length + " cifre");
